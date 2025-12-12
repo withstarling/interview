@@ -27,8 +27,7 @@ yarn dev
 ### MVP Features to Implement
 
 1. **Outbound Voice Call**
-   - Create a button/form to initiate calls
-   - For MVP, simulate the call process (no actual phone integration required)
+   - Create a way to initiate calls using Vapi
 
 2. **Scripted Dialogue**
    - Implement an AI agent that asks screening questions:
@@ -38,7 +37,7 @@ yarn dev
      - Work authorization status
 
 3. **Transcription Storage**
-   - Store call transcripts in a database
+   - Store call transcripts in a database - focus on getting something working quickly first 
    - Design appropriate data models
 
 4. **Operator Console**
@@ -52,14 +51,7 @@ yarn dev
      - Fetching call logs
      - Retrieving call details/transcripts
 
-### Technical Stack
-
-- **Framework**: Next.js 14 with App Router
-- **Styling**: Tailwind CSS + shadcn/ui components
-- **Language**: TypeScript
-- **Database**: Your choice (consider SQLite, PostgreSQL, or even in-memory for MVP)
-
-## Project Structure
+## Project Structure - feel free to adjust this
 
 ```
 src/
@@ -82,9 +74,6 @@ See `src/app/api/example/route.ts` for an example of how to create API endpoints
 
 ### Example Component
 See `src/components/example-api-usage.tsx` for an example of how to interact with API endpoints from React components.
-
-### Type Definitions
-Basic TypeScript interfaces are provided in `src/types/index.ts`. Expand these based on your implementation needs.
 
 ### UI Components
 shadcn/ui components are pre-installed:
